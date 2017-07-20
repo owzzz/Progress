@@ -1,0 +1,35 @@
+{
+  "name": "progress",
+  "version": "1.0.0",
+  "description": "A automated progress tool for tracking progress on a giving repo sending out a digest of changes daily to team",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "express-handlebars": "^3.0.0",
+    "node-fetch": "^1.7.1",
+    "nodemailer": "^4.0.1",
+    "nodemailer-express-handlebars": "^2.0.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owzzz/Progress.git"
+  },
+  "keywords": [
+    "Automation",
+    "Node",
+    "Github"
+  ],
+  "author": "Owain Llewellyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owzzz/Progress/issues"
+  },
+  "homepage": "https://github.com/owzzz/Progress#readme"
+}
