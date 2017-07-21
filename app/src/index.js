@@ -18,7 +18,6 @@ class Progress {
 
 	_handleCommits(commits) {
 		this.commits = commits;
-		console.log(commits);
 		if(this.commits.length > 0) {
 			this._initialiseTransporter();
 			// Send email via Transporter
