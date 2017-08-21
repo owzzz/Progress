@@ -4,6 +4,7 @@
   "description": "A automated progress tool for tracking progress on a giving repo sending out a digest of changes daily to team",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.100.0",
     "cron": "^1.2.1",
     "express-handlebars": "^3.0.0",
     "node-fetch": "^1.7.1",
@@ -12,6 +13,10 @@
     "nodemailer-smtp-transport": "^2.7.4"
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1",
     "nodemon": "^1.11.0"
   },
   "scripts": {
