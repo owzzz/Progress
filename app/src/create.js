@@ -3,14 +3,22 @@
 const uuid = require('uuid');
 const AWS = require('aws-sdk'); // eslint-disable-line import/no-extraneous-dependencies
 
+AWS.config.update({
+  region: "us-west-2",
+  endpoint: "http://localhost:8000"
+});
+
+
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 module.exports.create = (event, context, callback) => {
   const timestamp = new Date().getTime();
   const data = JSON.parse(event.body);
 
+  console.log(data);
+
   const params = {
-    TableName: process.env.DYNAMODB_TABLE,
+    TableName: projectsTable,
     Item: {
       ProjectID: uuid.v1(),
       EmailSubscriber: data.emailSubscriber,

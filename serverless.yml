@@ -22,7 +22,8 @@ provider:
   environment:
     DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
 
-
+plugins:
+  - serverless-offline
 
 functions:
   create:
