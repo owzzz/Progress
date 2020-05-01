@@ -11,7 +11,8 @@
     "nodemailer": "^4.0.1",
     "nodemailer-express-handlebars": "^2.0.0",
     "nodemailer-smtp-transport": "^2.7.4",
-    "serverless-offline": "^3.15.3"
+    "serverless-offline": "^3.15.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^15.1.0",
@@ -21,7 +22,9 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -37,5 +40,6 @@
   "bugs": {
     "url": "https://github.com/owzzz/Progress/issues"
   },
-  "homepage": "https://github.com/owzzz/Progress#readme"
+  "homepage": "https://github.com/owzzz/Progress#readme",
+  "snyk": true
 }
