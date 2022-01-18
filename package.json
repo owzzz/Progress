@@ -7,7 +7,7 @@
     "aws-sdk": "^2.100.0",
     "cron": "^1.2.1",
     "express-handlebars": "^3.0.0",
-    "node-fetch": "^1.7.1",
+    "node-fetch": "^2.6.7",
     "nodemailer": "^4.0.1",
     "nodemailer-express-handlebars": "^2.0.0",
     "nodemailer-smtp-transport": "^2.7.4",
