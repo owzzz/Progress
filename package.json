@@ -4,14 +4,14 @@
   "description": "A automated progress tool for tracking progress on a giving repo sending out a digest of changes daily to team",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.100.0",
-    "cron": "^1.2.1",
-    "express-handlebars": "^3.0.0",
+    "aws-sdk": "^2.275.1",
+    "cron": "^2.0.0",
+    "express-handlebars": "^5.2.1",
     "node-fetch": "^1.7.1",
     "nodemailer": "^4.0.1",
-    "nodemailer-express-handlebars": "^2.0.0",
+    "nodemailer-express-handlebars": "^6.1.0",
     "nodemailer-smtp-transport": "^2.7.4",
-    "serverless-offline": "^3.15.3"
+    "serverless-offline": "^3.33.0"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^15.1.0",
